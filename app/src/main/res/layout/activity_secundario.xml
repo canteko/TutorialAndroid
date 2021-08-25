@@ -45,6 +45,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/btn_star"
         android:onClick="goToLinearLayout"
         android:text="Ir a LinearLayout"
         app:layout_constraintBottom_toBottomOf="parent"

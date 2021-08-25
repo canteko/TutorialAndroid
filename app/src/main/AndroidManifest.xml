@@ -3,6 +3,7 @@
     package="com.canteko.helloworld">
 
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
+        <activity
+            android:name=".ConstraintLayoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GlideActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PicassoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EntranceActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".RelativeLayoutActivity"
             android:exported="true" />
@@ -31,13 +50,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

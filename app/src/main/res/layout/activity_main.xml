@@ -1,20 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:onClick="initSecActivity"
+    <Button
         android:id="@+id/textoEvento"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="initSecActivity"
         android:text="Iniciar Activity Secundario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <CheckBox
+        android:onClick="tipoAveriaClicked"
+        android:id="@+id/checkBoxChapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chapa y pintura" />
+
+    <CheckBox
+        android:onClick="tipoAveriaClicked"
+        android:id="@+id/checkBoxCristal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cristal" />
+
+    <CheckBox
+        android:onClick="tipoAveriaClicked"
+        android:id="@+id/checkBoxMecanico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avería mecánica" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_pirates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pirates"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/radio_ninjas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ninjas"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Tipo avería?"
+        android:onClick="getTipoAveria"/>
+
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toggleButtonAction"
+        android:textOff="in-CORRESTO"
+        android:textOn="CORRESTO" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        app:srcCompat="@drawable/ic_baseline_cast_24" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_man" />
+
+</LinearLayout>
