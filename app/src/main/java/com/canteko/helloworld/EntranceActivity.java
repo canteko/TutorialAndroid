@@ -38,4 +38,9 @@ public class EntranceActivity extends AppCompatActivity {
         Intent intent = new Intent(this, FragmentActivity.class);
         startActivity(intent);
     }
+
+    public void goToDynamicFragmentActivity(View view) {
+        Intent intent = new Intent(this, DynamicFragmentActivity.class);
+        startActivity(intent);
+    }
 }
