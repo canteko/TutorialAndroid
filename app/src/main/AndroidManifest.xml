@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.canteko.helloworld">
+    package="com.canteko.helloworld" >
 
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,7 +11,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HelloWorld">
+        android:theme="@style/Theme.HelloWorld" >
+        <activity
+            android:name=".FragmentActivity"
+            android:exported="true" />
         <activity
             android:name=".ConstraintLayoutActivity"
             android:exported="true" />
@@ -23,7 +26,7 @@
             android:exported="true" />
         <activity
             android:name=".EntranceActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,7 +41,7 @@
             android:exported="true" />
         <activity
             android:name=".GestionAlarmasActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.SET_ALARM" />
 

@@ -33,4 +33,9 @@ public class EntranceActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ConstraintLayoutActivity.class);
         startActivity(intent);
     }
+
+    public void goToFragemntActivity(View view) {
+        Intent intent = new Intent(this, FragmentActivity.class);
+        startActivity(intent);
+    }
 }
