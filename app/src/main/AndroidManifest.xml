@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
         <activity
+            android:name=".FragmentListActivity"
+            android:exported="true" />
+        <activity
             android:name=".DynamicFragmentActivity"
             android:exported="true"
             android:label="@string/title_activity_dynamic_fragment"
