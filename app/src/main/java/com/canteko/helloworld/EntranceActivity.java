@@ -10,6 +10,8 @@ public class EntranceActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Theme_HelloWorld);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entrance);
     }

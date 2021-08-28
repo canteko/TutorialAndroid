@@ -47,6 +47,7 @@
             android:name=".PicassoActivity"
             android:exported="true" />
         <activity
+            android:theme="@style/SplashTheme"
             android:name=".EntranceActivity"
             android:exported="true">
             <intent-filter>
