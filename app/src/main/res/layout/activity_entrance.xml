@@ -96,8 +96,8 @@
             android:id="@+id/button14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fragment List"
-            android:onClick="goToFragmentListActivity"
+            android:text="Multiscreen"
+            android:onClick="goToMultiscreenActivity"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button13" />
@@ -106,8 +106,8 @@
             android:id="@+id/button15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fragment List"
-            android:onClick="goToFragmentListActivity"
+            android:text="Multiscreen Tablets"
+            android:onClick="goToMultiscreenTabletsActivity"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button14" />

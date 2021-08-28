@@ -53,4 +53,14 @@ public class EntranceActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ComunicatedFragmentsActivity.class);
         startActivity(intent);
     }
+
+    public void goToMultiscreenActivity(View view) {
+        Intent intent = new Intent(this, MultiscreenActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToMultiscreenTabletsActivity(View view) {
+        Intent intent = new Intent(this, MultiscreenTabletsActivity.class);
+        startActivity(intent);
+    }
 }
