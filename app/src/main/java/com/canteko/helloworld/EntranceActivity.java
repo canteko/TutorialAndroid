@@ -63,4 +63,9 @@ public class EntranceActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MultiscreenTabletsActivity.class);
         startActivity(intent);
     }
+
+    public void goToDialogActivity(View view) {
+        Intent intent = new Intent(this, DialogActivity.class);
+        startActivity(intent);
+    }
 }
