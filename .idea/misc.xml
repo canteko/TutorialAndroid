@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/drawable/ic_baseline_cast_24.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_comunicated_fragments.xml" value="0.328125" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_constraint_layout.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_dynamic_fragment.xml" value="0.33177083333333335" />
-        <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_entrance.xml" value="0.5546875" />
+        <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_entrance.xml" value="0.5392320534223706" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_fragment_list.xml" value="0.328125" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_fragmentos.xml" value="0.5546875" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_gestion_alarmas.xml" value="0.5546875" />
@@ -19,6 +20,7 @@
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_secundario.xml" value="0.8159403669724771" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/content_dynamic_fragment.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/content_dynamic_fragment2.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/fragment_controles.xml" value="0.328125" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/fragment_dynamic.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/fragment_dynamic1.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/fragment_dynamic2.xml" value="0.33177083333333335" />

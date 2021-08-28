@@ -48,4 +48,9 @@ public class EntranceActivity extends AppCompatActivity {
         Intent intent = new Intent(this, FragmentListActivity.class);
         startActivity(intent);
     }
+
+    public void goToComunicatedFragmentsActivity(View view) {
+        Intent intent = new Intent(this, ComunicatedFragmentsActivity.class);
+        startActivity(intent);
+    }
 }
