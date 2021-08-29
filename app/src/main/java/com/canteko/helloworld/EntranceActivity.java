@@ -70,4 +70,14 @@ public class EntranceActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DialogActivity.class);
         startActivity(intent);
     }
+
+    public void goToMenuActivity(View view) {
+        Intent intent = new Intent(this, MenuActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToNavigationDrawerActivity(View view) {
+        Intent intent = new Intent(this, NavigationDrawerActivity.class);
+        startActivity(intent);
+    }
 }

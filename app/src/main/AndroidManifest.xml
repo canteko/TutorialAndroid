@@ -13,6 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
         <activity
+            android:name=".NavigationDrawerActivity"
+            android:exported="true"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.HelloWorld.NoActionBar" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="true" />
+        <activity
             android:name=".DialogActivity"
             android:exported="true"
             android:label="@string/title_activity_dialog"
@@ -47,9 +55,9 @@
             android:name=".PicassoActivity"
             android:exported="true" />
         <activity
-            android:theme="@style/SplashTheme"
             android:name=".EntranceActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

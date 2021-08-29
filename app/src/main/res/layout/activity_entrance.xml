@@ -126,8 +126,8 @@
             android:id="@+id/button17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fragment List"
-            android:onClick="goToFragmentListActivity"
+            android:text="Menu Activity"
+            android:onClick="goToMenuActivity"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button16" />
@@ -136,8 +136,8 @@
             android:id="@+id/button18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fragment List"
-            android:onClick="goToFragmentListActivity"
+            android:text="Navigation Drawer Activity"
+            android:onClick="goToNavigationDrawerActivity"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button17" />
@@ -163,7 +163,7 @@
             app:layout_constraintTop_toBottomOf="@+id/button19" />
 
         <Button
-            android:id="@+id/button32"
+            android:id="@+id/button21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Fragment List"
@@ -171,6 +171,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button20" />
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
