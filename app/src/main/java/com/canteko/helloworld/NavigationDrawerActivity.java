@@ -3,7 +3,10 @@ package com.canteko.helloworld;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -47,6 +50,19 @@ public class NavigationDrawerActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_navigation_drawer);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+        // Personalización del menu
+        ImageView avatar = navigationView.getHeaderView(0).findViewById(R.id.imageViewAvatar);
+        TextView nombre = navigationView.getHeaderView(0).findViewById(R.id.textViewName);
+        TextView email = navigationView.getHeaderView(0).findViewById(R.id.textViewEmail);
+
+        Glide.with(navigationView.getHeaderView(0))
+                .load("https://www.premadegraphics.com/img_1/23/Female-Avatar-2.png")
+                .into(avatar);
+
+        nombre.setText("Pakiao");
+        email.setText("pakiao@gmail.com");
+
     }
 
     @Override
