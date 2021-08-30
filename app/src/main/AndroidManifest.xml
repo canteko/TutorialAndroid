@@ -13,6 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
         <activity
+            android:name=".ScrollingActivity"
+            android:exported="true"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/Theme.HelloWorld.NoActionBar" />
+        <activity
             android:name=".TabsActivity"
             android:exported="true"
             android:label="@string/title_activity_tabs" />

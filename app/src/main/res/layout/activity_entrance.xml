@@ -156,8 +156,8 @@
             android:id="@+id/button20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fragment List"
-            android:onClick="goToFragmentListActivity"
+            android:text="Scrolling Activity"
+            android:onClick="goToScrollingActivity"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button19" />

@@ -85,4 +85,9 @@ public class EntranceActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TabsActivity.class);
         startActivity(intent);
     }
+
+    public void goToScrollingActivity(View view) {
+        Intent intent = new Intent(this, ScrollingActivity.class);
+        startActivity(intent);
+    }
 }
