@@ -80,4 +80,9 @@ public class EntranceActivity extends AppCompatActivity {
         Intent intent = new Intent(this, NavigationDrawerActivity.class);
         startActivity(intent);
     }
+
+    public void goToTabsActivity(View view) {
+        Intent intent = new Intent(this, TabsActivity.class);
+        startActivity(intent);
+    }
 }
