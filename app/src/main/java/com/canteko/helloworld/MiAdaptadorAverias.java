@@ -42,8 +42,10 @@ public class MiAdaptadorAverias extends ArrayAdapter<Averia> {
         ImageView imageAveria = v.findViewById(R.id.imageViewPhoto);
 
         textViewTitulo.setText(elementoActual.getTitulo());
-        textViewModelo.setText(elementoActual.getModeloCoche());
-        textViewPresupuestos.setText((elementoActual.getNumeroPresupuestos() > 0 ? "Tienes " + elementoActual.getNumeroPresupuestos() + " presupuesto/s" : "No tienes presupuestos"));
+        if(textViewModelo != null) {
+            textViewModelo.setText(elementoActual.getModeloCoche());
+        }
+        textViewPresupuestos.setText((elementoActual.getNumeroPresupuestos() > 0 ? elementoActual.getNumeroPresupuestos() + " presupuesto/s" : "Sin presupuestos"));
 
         if(elementoActual.getUrlFoto() != null && !elementoActual.getUrlFoto().isEmpty()) {
             Glide.with(this.ctx)

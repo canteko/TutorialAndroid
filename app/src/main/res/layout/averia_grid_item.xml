@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageViewPhoto"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_photo_size_select_actual_24" />
+
+    <TextView
+        android:id="@+id/textViewAveriaTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Titulo Averia"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewPhoto"
+        app:layout_constraintStart_toStartOf="@+id/imageViewPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPhoto" />
+
+    <ImageView
+        android:id="@+id/imageViewPresupuesto"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewPresupuestos"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imageViewPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAveriaTitulo"
+        app:srcCompat="@drawable/ic_baseline_featured_play_list_red_24" />
+
+    <TextView
+        android:id="@+id/textViewPresupuestos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="TextView"
+        android:textColor="#7A0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPresupuesto"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewPhoto"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPresupuesto"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPresupuesto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
         <activity
+            android:name=".RecyclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomGridViewActivity"
+            android:exported="true" />
+        <activity
             android:name=".CustomListViewActivity"
             android:exported="true" />
         <activity

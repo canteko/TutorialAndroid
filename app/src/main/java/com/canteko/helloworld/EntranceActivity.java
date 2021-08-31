@@ -100,4 +100,14 @@ public class EntranceActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CustomListViewActivity.class);
         startActivity(intent);
     }
+
+    public void goToCustomGridViewActivity(View view) {
+        Intent intent = new Intent(this, CustomGridViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToCustomRecyclerViewActivity(View view) {
+        Intent intent = new Intent(this, RecyclerViewActivity.class);
+        startActivity(intent);
+    }
 }
