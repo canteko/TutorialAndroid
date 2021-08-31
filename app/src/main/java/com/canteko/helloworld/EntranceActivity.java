@@ -90,4 +90,14 @@ public class EntranceActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ScrollingActivity.class);
         startActivity(intent);
     }
+
+    public void goToSimpleListViewActivity(View view) {
+        Intent intent = new Intent(this, SimpleListViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToCustomListViewActivity(View view) {
+        Intent intent = new Intent(this, CustomListViewActivity.class);
+        startActivity(intent);
+    }
 }

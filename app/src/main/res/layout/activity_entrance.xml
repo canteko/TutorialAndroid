@@ -166,13 +166,21 @@
             android:id="@+id/button21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fragment List"
-            android:onClick="goToFragmentListActivity"
+            android:text="SimpleListView"
+            android:onClick="goToSimpleListViewActivity"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button20" />
 
-
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CustomListView"
+            android:onClick="goToCustomListViewActivity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button21" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
