@@ -8,6 +8,7 @@
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/drawable/ic_baseline_add_white_24.xml" value="0.5708333333333333" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/drawable/ic_baseline_cast_24.xml" value="0.5708333333333333" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/drawable/ic_baseline_featured_play_list_red_24.xml" value="0.34791666666666665" />
+        <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/drawable/ic_empty.xml" value="0.340625" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/drawable/pkt.xml" value="0.5708333333333333" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/drawable/side_nav_bar.xml" value="0.34375" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/drawable/splashscreen.xml" value="0.340625" />
@@ -17,7 +18,7 @@
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_constraint_layout.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_custom_grid_view.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_custom_list_view.xml" value="0.33177083333333335" />
-        <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_dialog.xml" value="0.5546875" />
+        <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_dialog.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_dynamic_fragment.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_entrance.xml" value="0.46394756008739985" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_fragment_list.xml" value="0.328125" />
@@ -27,6 +28,8 @@
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_liinear_layout.xml" value="0.5546875" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_linear_layout.xml" value="0.5546875" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_main.xml" value="0.33125" />
+        <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_maps.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_menu.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_multiscreen.xml" value="0.328125" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_multiscreen_tablets.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/Francisco/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.5546875" />
